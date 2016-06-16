@@ -15,11 +15,11 @@ return knex('author').del()
        last_name: 'Scanlan',
        email: 'meeshy@gmail.com',
         image_url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaMdqjZY2B276ttCxqlNA17gidgdTnxPpEVHkJx-_R5DxT4-PLaGx6mU'}),
-        knex('author').insert({username: 'Meeshy',
-        first_name: 'Michelle',
-        last_name: 'Scanlan',
-        email: 'meeshy@gmail.com',
-         image_url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaMdqjZY2B276ttCxqlNA17gidgdTnxPpEVHkJx-_R5DxT4-PLaGx6mU'})
+        knex('author').insert({username: 'annaWiggs',
+        first_name: 'Anna',
+        last_name: 'Wiggin',
+        email: 'annaw@gmail.com',
+         image_url:'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/0ad/01f/0abe697.jpg'})
     ]);
   })
 };
